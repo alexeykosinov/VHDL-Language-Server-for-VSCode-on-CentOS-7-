@@ -33,5 +33,5 @@ c) yum install patchelf
 ```
 patchelf --set-interpreter /opt/glibc-2.18/lib/ld-linux-x86-64.so.2 --set-rpath /opt/glibc-2.18/lib:/usr/lib64 /home/username/.vscode/extensions/hbohlin.vhdl-ls-0.3.1/server/vhdl_ls/0.15.0/vhdl_ls-x86_64-unknown-linux-gnu/bin/vhdl_ls
 ```
-4. Install VHDL_LS extension
+4. Install VHDL_LS extension (if it's not installed yet)
 5. Create .toml files: main for std libs in home folder, custom in the project dir
