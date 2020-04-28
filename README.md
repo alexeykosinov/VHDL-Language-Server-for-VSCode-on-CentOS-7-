@@ -35,3 +35,8 @@ patchelf --set-interpreter /opt/glibc-2.18/lib/ld-linux-x86-64.so.2 --set-rpath 
 ```
 4. Install VHDL_LS extension (if it's not installed yet)
 5. Create .toml files: main for std libs in home folder, custom in the project dir
+
+As an example: 
+- "hidden.vhdl_ls.toml" rename to ".vhdl_ls.toml" and place to your ~/
+- vhdl_ls.toml is in your project folder custom library file
+
