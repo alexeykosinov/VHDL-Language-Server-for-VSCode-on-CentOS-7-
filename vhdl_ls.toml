@@ -1,0 +1,4 @@
+[libraries]
+WORK.files = [
+  '/opt/Xilinx/Projects/*.vhd',
+]

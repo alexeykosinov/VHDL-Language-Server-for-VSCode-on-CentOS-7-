@@ -1,0 +1,17 @@
+[libraries]
+std.files = [
+  '/opt/Xilinx/Vivado/2019.2/data/vhdl/src/std/*.vhd',
+]
+ieee.files = [
+  '/opt/Xilinx/Vivado/2019.2/data/vhdl/src/ieee/distributable/numeric_std.vhd',
+  '/opt/Xilinx/Vivado/2019.2/data/vhdl/src/ieee/distributable/std_logic_1164.vhd',
+]
+unisim.files = [
+  '/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/src/unisims/unisim_VCOMP.vhd'
+]
+synopsys.files = [
+  '/opt/Xilinx/Vivado/2019.2/data/vhdl/src/synopsys/compileToSynopsys/*.vhd',
+]
+vital.files = [
+  '/opt/Xilinx/Vivado/2019.2/data/vhdl/src/vital95/**/*.vhd',
+]
